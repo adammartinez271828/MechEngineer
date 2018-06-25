@@ -102,7 +102,9 @@ namespace MechEngineMod
             new WeightSavingSlotType { ComponentDefId = "emod_armorslots_reactive", RequiredCriticalSlotCount = 14, WeightSavingsFactor = 0f },
             new WeightSavingSlotType { ComponentDefId = "emod_armorslots_reflective", RequiredCriticalSlotCount = 10, WeightSavingsFactor = 0f },
             new WeightSavingSlotType { ComponentDefId = "emod_armorslots_ferrolamellor", RequiredCriticalSlotCount = 14, WeightSavingsFactor = 0f },
-            new WeightSavingSlotType { ComponentDefId = "emod_armorslots_hardened", RequiredCriticalSlotCount = 1, WeightSavingsFactor = 0f }
+            new WeightSavingSlotType { ComponentDefId = "emod_armorslots_hardened", RequiredCriticalSlotCount = 1, WeightSavingsFactor = 0f },
+            new WeightSavingSlotType { ComponentDefId = "emod_armorslots_clanreactive", RequiredCriticalSlotCount = 7, WeightSavingsFactor = 0f },
+            new WeightSavingSlotType { ComponentDefId = "emod_armorslots_clanreflective", RequiredCriticalSlotCount = 5, WeightSavingsFactor = 0f }
         };
 
         /* 
