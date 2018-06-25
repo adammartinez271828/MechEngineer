@@ -98,7 +98,11 @@ namespace MechEngineMod
             new WeightSavingSlotType { ComponentDefId = "emod_armorslots_ferrosfibrous", RequiredCriticalSlotCount = 14, WeightSavingsFactor = 1f - 1f / 1.12f },
             new WeightSavingSlotType { ComponentDefId = "emod_armorslots_clanferrosfibrous", RequiredCriticalSlotCount = 7, WeightSavingsFactor = 1f - 1f / 1.2f },
             new WeightSavingSlotType { ComponentDefId = "emod_armorslots_stealth", RequiredCriticalSlotCount = 6, WeightSavingsFactor = 0f },
-            new WeightSavingSlotType { ComponentDefId = "emod_armorslots_heavyferrosfibrous", RequiredCriticalSlotCount = 21, WeightSavingsFactor = 1f - 1f / 1.24f }
+            new WeightSavingSlotType { ComponentDefId = "emod_armorslots_heavyferrosfibrous", RequiredCriticalSlotCount = 21, WeightSavingsFactor = 1f - 1f / 1.24f },
+            new WeightSavingSlotType { ComponentDefId = "emod_armorslots_reactive", RequiredCriticalSlotCount = 14, WeightSavingsFactor = 0f },
+            new WeightSavingSlotType { ComponentDefId = "emod_armorslots_reflective", RequiredCriticalSlotCount = 10, WeightSavingsFactor = 0f },
+            new WeightSavingSlotType { ComponentDefId = "emod_armorslots_ferrolamellor", RequiredCriticalSlotCount = 14, WeightSavingsFactor = 0f },
+            new WeightSavingSlotType { ComponentDefId = "emod_armorslots_hardened", RequiredCriticalSlotCount = 1, WeightSavingsFactor = 0f }
         };
 
         /* 
