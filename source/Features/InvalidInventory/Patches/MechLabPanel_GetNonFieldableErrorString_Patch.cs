@@ -24,7 +24,7 @@ namespace MechEngineer
             );
         }
 
-        public static List<string> GetValidationErrors(Dictionary<MechValidationType, List<string>> errorMessages, List<MechValidationType> validationTypes)
+        public static List<Localize.Text> GetValidationErrors(Dictionary<MechValidationType, List<Localize.Text>> errorMessages, List<MechValidationType> validationTypes)
         {
             try
             {

@@ -146,6 +146,8 @@ namespace MechEngineer
                     mech.FlagForDeath(
                         mechComponent.Description.Name + " DESTROYED",
                         criticalHitStates.DeathMethod,
+                        // TODO: get this new 1.2 parameter work
+                        DamageType.NOT_SET,
                         mechComponent.Location,
                         hitInfo.stackItemUID,
                         hitInfo.attackerId,

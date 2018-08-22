@@ -46,7 +46,7 @@ namespace MechEngineer
                     _adapter.LocationName.text,
                     componentRef.Def.PrefabIdentifier.ToUpper()
                 );
-                _adapter.MechLab.ShowDropErrorMessage(dropErrorMessage);
+                _adapter.MechLab.ShowDropErrorMessage(new Localize.Text(dropErrorMessage));
                 _adapter.MechLab.OnDrop(eventData);
                 return false;
             }

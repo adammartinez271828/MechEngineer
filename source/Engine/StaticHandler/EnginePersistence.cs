@@ -39,7 +39,8 @@ namespace MechEngineer
 
             //SaveEngineState(engineRef, panel);
 
-            widget.RefreshFilterToggles();
+            // TODO: Found where is this moved in 1.2
+            //widget.RefreshFilterToggles();
         }
 
         internal static MechComponentRef CreateMechComponentRef(string id, SimGameState sim, DataManager dataManager)
